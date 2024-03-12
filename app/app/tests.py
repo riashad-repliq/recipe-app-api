@@ -10,7 +10,5 @@ class SumTest(SimpleTestCase):
     def test_sub_numbers(self):
         res = calc.sub(10, 1)
         
-        self.assertEqual(res, 9)
-        
-    
+        self.assertEqual(res, 9)  
     
